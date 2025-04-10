@@ -49,6 +49,7 @@ export default function CoursesPage() {
             <Link href="/Admissions" className="nav-item">Admissions</Link>
             <Link href="/Contact" className="nav-item">Contact</Link>
             <Link href="/About-Us" className="nav-item">About Us</Link>
+            <Link href="/Information" className="nav-item">Information</Link>
           </div>
         </nav>
 
