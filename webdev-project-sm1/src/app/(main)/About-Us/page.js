@@ -34,10 +34,9 @@ export default function CantorHome() {
 
         <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
           <div>
-         
+            <Link href="/Homepage" className="nav-item">Home</Link>
             <Link href="/Courses" className="nav-item">Courses</Link>
             <Link href="/Contact" className="nav-item">Contact</Link>
-            <Link href="/About-Us" className="nav-item">About Us</Link>
             <Link href="/Information" className="nav-item">Information</Link>
             <Link href="/" className="nav-item">Facilities</Link>
             <Link href="/" className="nav-item">Learning Resources</Link>
@@ -51,22 +50,10 @@ export default function CantorHome() {
 
         <div className="content-sections">
           <div className="section">
-            <h3>Computing Courses</h3>
-            <p> Check out a  quick Summary about our Computing Courses</p>
-          </div>
-          <div className="section">
-            <h3>Design Courses</h3>
-            <p>Check out a  quick Summary about our Design Courses</p>
-          </div>
-          <div>
-            <div className="section">
-              <h3>Facilities</h3>
-              <p>Discorver and learn our Facilities.</p>
-            </div>
-          </div>
-          <div className="section">
-            <h3>How to find us:</h3>
-            <p>Cantor College Main Street Sheffield SC4 2BB</p>
+            <h3>About Us</h3>
+            <p className="about-text" > 
+Cantor College was established in 1989 to specialize in Computing and Design.   At Cantor College, we want to give students the education they need to achieve their career aims, leaving them equipped with the knowledge, skills and experience to succeed. Cantor College gives you the opportunities that can give you the edge when you enter the world of work, through our teaching and our links to some of the world's leading researchers and employers. Our students have gone on to successful careers in a wide range of industries across the globe.  Whatever your ambitions, our learning and support can help to get the most out of your time with Cantor College, both as a student and in your future career.
+</p>
           </div>
         </div>
 

@@ -99,7 +99,7 @@ body {
 }
 
 .content-sections {
-    background-image: url("/images/main_2529_image4.png");
+    background-image: url("/images/Cantor-main-entrance.jpg");
     background-size: cover;
     background-position: center center; 
     background-repeat: no-repeat; 
@@ -132,6 +132,12 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+.about-text {
+    font-size: 1.1rem;
+    padding: 20px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
   
 .footer {
     background-color: #34495e;

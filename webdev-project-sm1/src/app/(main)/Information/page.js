@@ -39,10 +39,11 @@ export default function CantorHome() {
          
             <Link href="/Homepage" className="nav-item">Home</Link>
             <Link href="/Courses" className="nav-item">Courses</Link>
-            <Link href="/Admissions" className="nav-item">Admissions</Link>
             <Link href="/Contact" className="nav-item">Contact</Link>
             <Link href="/About-Us" className="nav-item">About Us</Link>
-            <Link href="/About-Us" className="nav-item"></Link>
+            <Link href="/" className="nav-item">Facilities</Link>
+            <Link href="/" className="nav-item">Learning Resources</Link>
+            <Link href="/" className="nav-item"></Link>
           </div>
         </nav>
 
@@ -54,11 +55,11 @@ export default function CantorHome() {
         <div className="content-sections">
           <div className="section">
             <h3>Information for Staff</h3>
-            <p>Calendar of academic and campus events</p>
+            <p>Staff Resources, Support & Updates - All in One Place</p>
           </div>
           <div className="section">
             <h3>Information For Business</h3>
-            <p>Groundbreaking research initiatives</p>
+            <p>Unlock Opportunities for Your Business with Cantor</p>
           </div>
           <div className="section">
             <h3>How to find us:</h3>

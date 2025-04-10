@@ -45,11 +45,12 @@ export default function CoursesPage() {
           <div>
          
             <Link href="/Homepage" className="nav-item">Home</Link>
-            <Link href="/Courses" className="nav-item">Courses</Link>
-            <Link href="/Admissions" className="nav-item">Admissions</Link>
             <Link href="/Contact" className="nav-item">Contact</Link>
             <Link href="/About-Us" className="nav-item">About Us</Link>
             <Link href="/Information" className="nav-item">Information</Link>
+            <Link href="/" className="nav-item">Facilities</Link>
+            <Link href="/" className="nav-item">Learning Resources</Link>
+            <Link href="/" className="nav-item"></Link>
           </div>
         </nav>
 
