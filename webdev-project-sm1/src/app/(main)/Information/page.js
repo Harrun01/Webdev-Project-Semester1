@@ -62,8 +62,14 @@ export default function CantorHome() {
             <p>Unlock Opportunities for Your Business with Cantor</p>
           </div>
           <div className="section">
-            <h3>How to find us:</h3>
-            <p>Cantor College Main Street Sheffield SC4 2BB</p>
+            <h3>How to find us/Contact:</h3>
+            <p>
+               Cantor College Main Street<br/>
+               Sheffield SC4 2BB<br/>
+              Tel: (01321) 2340 235<br/>
+              Fax: (01321) 2340 236<br/>
+             Email: info@cantorcollege.ac.uk
+            </p>
           </div>
         </div>
 

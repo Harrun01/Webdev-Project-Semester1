@@ -84,6 +84,16 @@ export default function CoursesPage() {
           </tbody>
         </table>
       </div>
+      <div className="section2">
+            <h3>How to find us/Contact:</h3>
+            <p>
+               Cantor College Main Street<br/>
+               Sheffield SC4 2BB<br/>
+              Tel: (01321) 2340 235<br/>
+              Fax: (01321) 2340 236<br/>
+             Email: info@cantorcollege.ac.uk
+            </p>
+          </div>
 
       <div className="footer">
         <p>© 2024 Cantor College | All Rights Reserved</p>
