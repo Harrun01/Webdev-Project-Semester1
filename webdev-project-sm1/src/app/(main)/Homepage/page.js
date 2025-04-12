@@ -47,8 +47,8 @@ const toggleSection = (index) => {
             <Link href="/Courses" className="nav-item">Courses</Link>
             <Link href="/About-Us" className="nav-item">About Us</Link>
             <Link href="/Information" className="nav-item">Information</Link>
-            <Link href="/" className="nav-item">Facilities</Link>
-            <Link href="/" className="nav-item">Learning Resources</Link>
+            <Link href="/Facilities" className="nav-item">Facilities</Link>
+            <Link href="/Learning-Resources" className="nav-item">Learning Resources</Link>
           </div>
         </nav>
 
@@ -83,11 +83,14 @@ The College's art and design courses don't just train you, they promote alternat
 You’ll develop your creative practice whilst interacting with your peers in well-equipped studios, making and digital workshops. At the same time, you'll learn professional skills by working on applied briefs facilitated through our links with commercial clients, cultural institutions, businesses and organisations.
 </p>
       </div>
-  </div>
+      </div>
+      <Link href="/Facilities">
             <div className="section">
               <h3>Facilities</h3>
-              <p>Discorver and learn our Facilities.</p>
+              <p> Click to Discorver and learn our Facilities.</p>
             </div>
+          </Link>
+          
           <div className="Contact">
             <h3>How to find us/Contact:</h3>
             <p>
@@ -99,7 +102,7 @@ You’ll develop your creative practice whilst interacting with your peers in we
             </p>
           </div>
         </div>
-
+        
         <div className="footer">
           <p>© 2024 Cantor College | All Rights Reserved</p>
         </div>

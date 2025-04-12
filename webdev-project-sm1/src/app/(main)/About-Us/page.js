@@ -36,10 +36,9 @@ export default function CantorHome() {
           <div>
             <Link href="/Homepage" className="nav-item">Home</Link>
             <Link href="/Courses" className="nav-item">Courses</Link>
-            <Link href="/Contact" className="nav-item">Contact</Link>
             <Link href="/Information" className="nav-item">Information</Link>
-            <Link href="/" className="nav-item">Facilities</Link>
-            <Link href="/" className="nav-item">Learning Resources</Link>
+            <Link href="/Facilities" className="nav-item">Facilities</Link>
+            <Link href="/Learning-Resources" className="nav-item">Learning Resources</Link>
           </div>
         </nav>
 
