@@ -24,14 +24,7 @@ export default function CantorHome() {
 
   return (
     <>
-        <link
-         rel="preload"
-          href="/images/Cantor-main-entrance.jpg"
-          as="image"
-         type="image/jpeg"
-        />
-     
-
+      
       <div className="container">
         <div className="header">
           <div>
