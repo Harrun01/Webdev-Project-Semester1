@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Head from "next/head";
 import Link from 'next/link'
 import "../styles/mobile.css";;
 import "../styles/desktop.css";
@@ -14,9 +13,6 @@ export default function CantorHome() {
 
   return (
     <>
-      <Head>
-        <title>Cantor College Home</title>
-      </Head>
 
       <div className="container">
         <div className="header">
@@ -36,9 +32,9 @@ export default function CantorHome() {
           <div>
             <Link href="/Homepage" className="nav-item">Home</Link>
             <Link href="/Courses" className="nav-item">Courses</Link>
+            <Link href="/About-Us" className="nav-item">About Us</Link>
             <Link href="/Information" className="nav-item">Information</Link>
             <Link href="/Facilities" className="nav-item">Facilities</Link>
-            <Link href="/Learning-Resources" className="nav-item">Learning Resources</Link>
           </div>
         </nav>
 

@@ -23,10 +23,7 @@ export default function CantorHome() {
 
   return (
     <>
-      <Head>
-        <title>Cantor College Home</title>
-      </Head>
-
+    
       <div className="container">
         <div className="header">
           <div>

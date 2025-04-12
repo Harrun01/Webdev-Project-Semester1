@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Head from "next/head";
 import Link from 'next/link'
 import "../styles/mobile.css";;
 import "../styles/desktop.css";
@@ -23,10 +22,6 @@ const toggleSection = (index) => {
 
   return (
     <>
-      <Head>
-        <title>Cantor College Home</title>
-      </Head>
-
       <div className="container">
         <div className="header">
           <div>

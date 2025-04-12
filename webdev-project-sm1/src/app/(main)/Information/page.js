@@ -24,10 +24,13 @@ export default function CantorHome() {
 
   return (
     <>
-      <Head>
-        <title>Cantor College Home</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+        <link
+         rel="preload"
+          href="/images/Cantor-main-entrance.jpg"
+          as="image"
+         type="image/jpeg"
+        />
+     
 
       <div className="container">
         <div className="header">
