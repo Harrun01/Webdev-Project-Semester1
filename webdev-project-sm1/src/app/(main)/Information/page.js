@@ -59,7 +59,7 @@ export default function CantorHome() {
           <p>Explore essential information to make the most of your journey at Cantor College</p>
         </div>
 
-        <div className="content-sections">
+        <div className="content-sections" style={{ backgroundImage: 'url("/images/Cantor-main-entrance.jpg")' }}>
   
         <div className="section" onClick={() => toggleSection(0)}>
     <h3>Information for business</h3>

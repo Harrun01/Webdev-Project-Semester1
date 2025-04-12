@@ -57,7 +57,7 @@ const toggleSection = (index) => {
           <p>Discover world-class learning at Cantor College</p>
         </div>
 
-        <div className="content-sections">
+        <div className="content-sections" style={{ backgroundImage: 'url("/images/Computing-Playstation-Lab.jpg")'}}>
 
   
         <div className="section" onClick={() => toggleSection(0)}>
